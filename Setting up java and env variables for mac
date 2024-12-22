@@ -1,0 +1,10 @@
+Download java
+Install the jdk package
+For env variables, run below commands in terminal
+1. Find the java version installed on your machine and its location - run /usr/libexec/java_home - V
+1. Go to location of variables -  vi ~/.zshrc
+2. Hit I for inserting
+3. export JAVA_HOME=$(/usr/libexec/java_home)
+4. Hit Esc and then :wq  and then ENTER
+5. To save run - source ~/.bash_profile
+6. To validate the path run - echo $JAVA_HOME
