@@ -1,0 +1,18 @@
+In Java, these terms relate to how you incorporate external code into your projects:
+1. Dependency:
+A dependency is a broader term that encompasses any external library or module your project needs to function correctly.
+It can be a JAR file, a Maven artifact, or any other external code that your project relies on.
+
+2. Maven:
+Maven is a build automation tool that helps manage dependencies in Java projects.
+It uses a pom.xml file to declare dependencies and their versions, allowing for easy and consistent management of external libraries.
+Maven downloads dependencies from a central repository and manages their transitive dependencies automatically.
+
+3. Import Libraries:
+In Java, import statements are used to bring in specific classes or packages from external libraries into your code.
+Import statements are used after you have added the dependency to your project (e.g., using Maven).
+
+Here's a simple breakdown:
+Dependency: The external library or module your project needs.
+Maven: A tool to manage dependencies and build your project.
+Import: The statement used to access classes from a dependency within your code.
