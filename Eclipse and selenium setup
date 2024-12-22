@@ -1,0 +1,5 @@
+Download eclipse IDE from browser
+Go to settings > maven > enable download > apply and close -- To allow downloads from outside
+Create new java project > right click > configure > convert to maven project
+Go to browser and search for maven repository > search for selenium and get the dependency
+In pom.xml - add the found depencency for selenium
